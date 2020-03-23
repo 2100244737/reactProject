@@ -1,0 +1,19 @@
+.timeDays {
+  margin-top: 10px;
+}
+
+.hour, .minute, .second {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  background: #605751;
+  color: #fff;
+  font-size: 24px;
+}
+.dian {
+  display: inline-block;
+  text-align: center;
+  font-size: 35px;
+  color:#333333;
+}
+

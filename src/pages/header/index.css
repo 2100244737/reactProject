@@ -1,0 +1,57 @@
+.contai {
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  background: #333;
+  line-height: 50px;
+  font-size: 12px;
+}
+
+.contai, .left, .bug {
+  display: inline-block;
+}
+
+.contai .right {
+  display: inline-block;
+  margin-left: 180px;
+}
+
+span, a, .bug {
+  color: #b0b0b0;
+}
+.ico {
+  margin-right: 5px;
+  font-size: 15px;
+}
+span {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+b {
+  color: #424242;
+  margin-left: 10px;
+  margin-right: 10px
+}
+a {
+  text-decoration: none;
+}
+.bug {
+  background: #424242;
+  width: 120px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.span::after {
+  position:relative;
+  left: 10px;
+  content: '|';
+  font-size: 10px;
+  color: #424242;
+}
+.span:hover {
+  color: #fff;
+}
+.span:last-child::after {
+  content: '';
+}

@@ -1,0 +1,205 @@
+
+.navigationBar {
+  text-align:center;
+  line-height:50px;
+  margin-top: 20px;
+}
+.navigationBar .leftBar {
+  position: relative;
+}
+.imgIcon {
+  width: 55px;
+  display:inline-block;
+  overflow: hidden;
+}
+.imgIcon::after {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  content: url("../../img/mi-logo.png");
+}
+.leftBar , .showLeft, .text, .slideshow ,.carousel,.showimg,.search, .textBar,.imgbg, .imgneer,.leftOut,.rightOut {
+  display: inline-block;
+}
+.leftBar {
+  background: #ff6700;
+}
+.textBar {
+  margin-left:152px;
+  margin-right: 152px;
+}
+.text {
+  color: #333
+}
+.text:hover {
+  color: #ff6700;
+}
+.search {
+text-align: center;
+  width: 300px;
+}
+.ant-input-group .ant-input {
+  height: 50px;
+}
+.ant-btn-primary {
+  height: 50px;
+}
+/*轮播图*/
+.showimg {
+  box-sizing: border-box;
+  text-align: left;
+  background: red;
+  height: 460px;
+  width: 234px;
+  padding-top: 20px;
+}
+.showLeft {
+  position:relative;
+  padding-left: 10%;
+  margin-top: 20px;
+
+}
+.slideshow {
+  position:absolute;
+  box-sizing: border-box;
+  width: 987px;
+  height: 460px;
+  background: blueviolet;
+}
+.leftOut {
+  position: absolute;
+  left: 2%;
+  top: 50%;
+  height: 60px;
+  line-height: 60px;
+  width: 50px;
+  text-align: center;
+  z-index: 8888;
+}
+.rightOut {
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  height: 60px;
+  line-height: 60px;
+  width: 50px;
+  text-align: center;
+  z-index: 8888;
+}
+.LeftOutlined, .RightOutlined {
+  font-size: 30px;
+  color: #888;
+}
+.rightOut:hover {
+  background: #333;
+  opacity: .6;
+}
+.leftOut:hover {
+  background: #333;
+  opacity: .6;
+}
+.carousel {
+
+}
+
+
+.imgbg {
+  display: block;
+  height: 460px;
+  width: 100%;
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 460px;
+  line-height: 460px;
+  overflow: hidden;
+}
+.ant-carousel .slick-dots {
+
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 50px;
+}
+.ant-carousel .slick-dots li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+.commodity {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  padding-left:  20px;
+  width: 100%;
+  color: #fff;
+  margin: 0;
+}
+.commodity:hover {
+  background:#ff6700 ;
+}
+.commodity::after {
+  position: absolute;
+  right: 20px;
+  content: '>';
+  font-size: 20px;
+}
+.xiaomi {
+  position: relative;
+  padding-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  height: 500px;
+
+}
+.bugMi  {
+  position: absolute;
+  display: inline-block;
+  height: 300px;
+  width: 243px;
+  text-align: center;
+  padding-top: 39px;
+  background: #f1eded;
+  border-top:1px solid #e53935;
+}
+.round {
+  font-size: 21px;
+  color: #ef3a3b;
+  padding-top: 15px;
+}
+.desc {
+  padding-top: 15px;
+  font-size: 15px;
+  color: rgba(0,0,0,.54)
+}
+.ant-back-top-inner {
+  height: 50px;
+  width: 50px;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: #1088e9;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.button {
+  position: absolute;
+  right: 10%;
+}
+.clickTo {
+  position: absolute;
+  left: 419px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  background: darkred;
+  opacity: .6;
+  margin-left: 15px;
+  text-align: center;
+  color: #fff;
+}
+.comAB {
+  position: absolute;
+  right: 10%;
+  top:121px;
+}
